@@ -376,3 +376,8 @@ header h2 a {
 .upload-btn:hover {
     background-color: #555;
 }
+
+div p {
+    background-color: #fff;
+    padding: 10px; 
+}
