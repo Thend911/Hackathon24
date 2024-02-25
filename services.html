@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +23,7 @@
     <div class="upload-section">
         <h3>Generate Practice Test</h3>
         <p>Upload your document to generate a new practice test.</p>
-        <form id="uploadForm" method="post" enctype="multipart/form-data">
+        <form id="uploadForm" method="POST" enctype="multipart/form-data">
             <input type="file" id="fileUpload" name="file" accept=".txt, .pdf, .doc, .docx, .jpg, .jpeg, .png">
             <br>
             <button type="submit" class="upload-btn">Upload File</button>
