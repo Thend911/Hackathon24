@@ -37,7 +37,7 @@ def upload_file(request):
         uploaded_file = request.FILES.get('file')
         if uploaded_file:
             # Process the uploaded file here (save to disk, etc.)
-            return redirect('home')
+            return redirect('output')
         else:
             return JsonResponse({'error': 'No file uploaded'})
     else:
