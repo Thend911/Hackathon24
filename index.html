@@ -28,7 +28,6 @@
         <div class="form-box login">
             <h2>Login</h2>
             <form method="POST" action="login">
-                {% csrf_token %}
                 <div class="input-box">
                     <span class="icon">
                         <ion-icon name="mail"></ion-icon>
@@ -57,7 +56,6 @@
         <div class="form-box register">
             <h2>Registration</h2>
             <form method="POST" action="register">
-                {% csrf_token %}
                 <div class="input-box">
                     <span class="icon">
                         <ion-icon name="person"></ion-icon>
